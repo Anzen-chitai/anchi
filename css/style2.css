@@ -30,7 +30,7 @@ body{
     left: 0px;
     padding-left: 0px;
     border-left-style: solid;
-    margin-left: 1450px;
+    margin-left: 95vw;
     right: 25px;
     top: 30px;
     width: 30px;
@@ -116,7 +116,8 @@ body{
 }
 
 .slide{
-    margin: 100px;
+    margin: 10vw;
+    font-size: 1.3vw;
 }
 .slide br{
     margin: 5px;
