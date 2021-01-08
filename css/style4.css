@@ -1,0 +1,136 @@
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-size: 20px;
+    color: white;
+    background-image: url(images/何か.png);
+    background-position: 50% 50%;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.thema h1{
+    width: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    z-index: 0;
+    position: fixed;
+}
+.thema img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
+    position: relative;
+    z-index: 0;
+}
+
+
+/*menu*/
+.menu{
+    background-color: black;
+    height: 25px;
+    left: 0px;
+    padding-left: 0px;
+    border-left-style: solid;
+    margin-left: 1450px;
+    right: 25px;
+    top: 30px;
+    width: 30px;
+    z-index: 99;
+    position: fixed;
+}
+.menu__line{
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+.menu__line--center{
+    top: 11px;
+}
+.menu__line--bottom{
+    bottom: 0;
+}
+.menu__line--top.active{
+    top: 8px;
+    transform: rotate(45deg);
+}
+.menu__line--center.active{
+    transform:scaleX(0);
+}
+.menu__line--bottom.active{
+    bottom: 14px;
+    transform: rotate(135deg);
+}
+/*gnav*/
+.gnav{
+    background:black;
+    display: none;
+    height: 100%;
+    top: 0px;
+    padding-top: 200px;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
+}
+.gnav__wrap{
+    align-items:center;
+    display: flex;
+    height: 100%;
+    margin-top: -200px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.gnav__menu__item{
+    margin-top: -100px;
+    margin: 40px 0;
+}
+.gnav__menu__item a{
+    color: white;
+    padding-top: -100px;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+}
+.gnav__menu__item a:hover{
+    color: #666;
+}
+
+.ending{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 12px;
+    font-family: a-otf-ryumin-pr6n,serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.ending br{
+    margin: 2vw;
+}
+
+.spell{
+    margin-left: 80px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    display: inline;
+    padding: .3em;
+    color: white;
+    line-height: 1.5;
+}
+footer{
+    text-align: center;
+    padding: 26px 0;
+    background-color: rgb(49, 49, 49);
+}
+footer p{
+    color: white;
+    font-size: 10px;
+}
+.wrapper h2 img{
+    padding-top: 20px;
+    width: 50px;
+}
