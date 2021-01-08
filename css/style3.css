@@ -2,9 +2,13 @@ body{
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
     font-size: 20px;
     color: white;
-    background:black;
+    background-image: url(images/暗染.jpg);
     background-position: 50% 50%;
+    background-color: rgb(68, 66, 66);
+    background-blend-mode: hard-light;
+    background-position: left;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 .thema h1{
@@ -97,30 +101,182 @@ body{
     color: #666;
 }
 
-.head h1{
-  background-color: grey;
-  font-size: 20px;
-  font-family: Meiryo,sans-serif;
-  color: white;
-  text-align: center;
-  background-size: 340px;
-  margin-top: 100px;
 
+.story1{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.head h2{
-  text-align: center;
-  color: red;
-  margin-top: 20px;
-  margin-bottom: 50px;
+.story1 br{
+    margin: 1vw;
 }
-
-.slide{
-    margin: 100px;
-}
-.slide br{
-    margin: 5px;
+.story2{
+    margin: 5vw;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
 }
 
+.story3{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story3 br{
+    margin: 1vw;
+}
+
+.story4{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: a-otf-ryumin-pr6n,serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.story4 br{
+    margin: 1vw;
+}
+.story5{
+    margin: 5vw;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+}
+.story6{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story6 br{
+    margin: 1vw;
+}
+.story7{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story7 br{
+    margin: 1vw;
+}
+.story8{
+    margin: 5vw;
+    margin-left: 10vw;
+    font-size: 20px;
+    font-family: Meiryo,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.story8 br{
+    margin: 0.3vw;
+}
+.story9{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story9 br{
+    margin: 1vw;
+}
+.story11{
+    margin: 5vw;
+    margin-left: 10vw;
+    font-size: 20px;
+    font-family: Meiryo,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.story11 br{
+    margin: 0.3vw;
+}
+.story12{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story12 br{
+    margin: 1vw;
+}
+.story13{
+    margin: 5vw;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+}
+.story14{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story14 br{
+    margin: 1vw;
+}
+
+.story15{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story15 br{
+    margin: 1vw;
+}
+.story16{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story16 br{
+    margin: 1vw;
+}
+.story17{
+    margin: 5vw;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.story18{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story18 br{
+    margin: 1vw;
+}
+.story19{
+    margin: 5vw;
+    font-size: 20px;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story19 br{
+    margin: 1vw;
+}
 .spell{
     margin-left: 80px;
     box-decoration-break: clone;
