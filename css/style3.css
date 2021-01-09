@@ -636,7 +636,9 @@ footer p{
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   ::i-block-chrome, .css_selector {
+  .body{
     -webkit-appearance: none;
     -webkit-text-size-adjust: 130%;
+	  }
   }
 }
