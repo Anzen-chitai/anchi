@@ -2,8 +2,6 @@ body{
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
     font-size: 10px;
     color: white;
-    -webkit-appearance: none;
-    -webkit-text-size-adjust: 100%;
 }
 body:before{
     content:"";
@@ -440,7 +438,7 @@ footer p{
     .story1{
         margin: 5vw;
         margin-top: 30vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         line-height: 20px;
@@ -456,12 +454,12 @@ footer p{
         font-weight: 600;
         font-style: normal;
         line-height: 20px;
-        font-size: 20px;
+        font-size: 8vw;
     }
 
     .story3{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -475,7 +473,7 @@ footer p{
         text-align: center;
         margin: 2 auto;
         margin-left: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: a-otf-ryumin-pr6n,serif;
         font-weight: 300;
         font-style: normal;
@@ -489,11 +487,11 @@ footer p{
         font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 20px;
+        font-size: 8vw;
     }
     .story6{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         line-height: 20px;
@@ -504,7 +502,7 @@ footer p{
     }
     .story7{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -516,7 +514,7 @@ footer p{
     .story8{
         margin: 5vw;
         margin-left: 10vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: Meiryo,sans-serif;
         font-weight: 400;
         letter-spacing: 1px;
@@ -526,7 +524,7 @@ footer p{
     }
     .story9{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -538,7 +536,7 @@ footer p{
     .story11{
         margin: 5vw;
         margin-left: 10vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: Meiryo,sans-serif;
         font-weight: 400;
         letter-spacing: 1px;
@@ -548,7 +546,7 @@ footer p{
     }
     .story12{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -563,12 +561,12 @@ footer p{
         font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 20px;
+        font-size: 8vw;
         line-height: 20px;
     }
     .story14{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -580,7 +578,7 @@ footer p{
 
     .story15{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -591,7 +589,7 @@ footer p{
     }
     .story16{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -606,12 +604,12 @@ footer p{
         font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 20px;
+        font-size: 8vw;
     }
 
     .story18{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -622,7 +620,7 @@ footer p{
     }
     .story19{
         margin: 5vw;
-        font-size: 8px;
+        font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -633,24 +631,4 @@ footer p{
     .story19 br{
         margin: 1vw;
     }
-}
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  ::i-block-chrome, .css_selector {
-  .body{
-    -webkit-appearance: none;
-    -webkit-text-size-adjust: 130%;
-	  }
-  .story1{
-    margin: 5vw;
-    margin-top: 15vw;
-    font-size: 5vw;
-    font-family: fot-tsukubrdgothic-std,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 3vw;
-}
-.story1 br{
-    margin: 1vw;
-}
-  }
 }
