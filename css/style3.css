@@ -425,7 +425,7 @@ footer p{
     .gnav__menu__item a{
         color: white;
         padding-top: -100px;
-        font-size: 2em;
+        font-size: 8vw;
         font-weight: bold;
         text-decoration: none;
         transition: .5s;
