@@ -442,7 +442,7 @@ footer p{
         font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
         font-style: normal;
     }
@@ -455,18 +455,18 @@ footer p{
         font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
         font-weight: 600;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
         font-size: 8vw;
     }
 
     .story3{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story3 br{
@@ -476,8 +476,8 @@ footer p{
     .story4{
         text-align: center;
         margin: 2 auto;
-        margin-left: 5vw;
-        font-size: 3vw;
+        margin-left: 4vw;
+        font-size: 4vw;
         font-family: a-otf-ryumin-pr6n,serif;
         font-weight: 300;
         font-style: normal;
@@ -489,6 +489,7 @@ footer p{
     }
     .story5{
         margin: 10vw;
+        margin-top: 20vw;
         margin-left: 5vw;
         font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
         font-weight: 600;
@@ -497,10 +498,10 @@ footer p{
     }
     .story6{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
-        line-height: 5vw;
+        line-height: 6vw;
         word-break: break-all;
         font-style: normal;
     }
@@ -509,11 +510,11 @@ footer p{
     }
     .story7{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story7 br{
@@ -522,9 +523,10 @@ footer p{
     .story8{
         margin: 5vw;
         margin-left: 10vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: Meiryo,sans-serif;
         font-weight: 400;
+        line-height: 5vw;
         letter-spacing: 1px;
     }
     .story8 br{
@@ -532,11 +534,11 @@ footer p{
     }
     .story9{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story9 br{
@@ -545,21 +547,22 @@ footer p{
     .story11{
         margin: 5vw;
         margin-left: 10vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: Meiryo,sans-serif;
         font-weight: 400;
         letter-spacing: 1px;
+        line-height: 7vw;
     }
     .story11 br{
         margin: 0.3vw;
     }
     .story12{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story12 br{
@@ -572,16 +575,16 @@ footer p{
         font-weight: 600;
         font-style: normal;
         font-size: 8vw;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story14{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story14 br{
@@ -590,11 +593,11 @@ footer p{
 
     .story15{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story15 br{
@@ -602,11 +605,11 @@ footer p{
     }
     .story16{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
     }
     .story16 br{
@@ -623,11 +626,11 @@ footer p{
 
     .story18{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;v
     }
     .story18 br{
@@ -635,11 +638,11 @@ footer p{
     }
     .story19{
         margin: 5vw;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 5vw;
+        line-height: 7vw;
         word-break: break-all;
         color:white;
     }
