@@ -441,7 +441,8 @@ footer p{
         font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
         font-style: normal;
     }
     .story1 br{
@@ -453,7 +454,8 @@ footer p{
         font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
         font-weight: 600;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
         font-size: 8vw;
     }
 
@@ -463,7 +465,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story3 br{
         margin: 1vw;
@@ -477,6 +480,8 @@ footer p{
         font-family: a-otf-ryumin-pr6n,serif;
         font-weight: 300;
         font-style: normal;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story4 br{
         margin: 4vw;
@@ -494,7 +499,8 @@ footer p{
         font-size: 3vw;
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
         font-style: normal;
     }
     .story6 br{
@@ -506,7 +512,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story7 br{
         margin: 1vw;
@@ -528,7 +535,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story9 br{
         margin: 1vw;
@@ -550,7 +558,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story12 br{
         margin: 1vw;
@@ -562,7 +571,8 @@ footer p{
         font-weight: 600;
         font-style: normal;
         font-size: 8vw;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story14{
         margin: 5vw;
@@ -570,7 +580,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story14 br{
         margin: 1vw;
@@ -582,7 +593,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story15 br{
         margin: 1vw;
@@ -593,7 +605,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
     }
     .story16 br{
         margin: 1vw;
@@ -613,7 +626,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;v
     }
     .story18 br{
         margin: 1vw;
@@ -624,7 +638,8 @@ footer p{
         font-family: fot-tsukubrdgothic-std,sans-serif;
         font-weight: 400;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5vw;
+        word-break: break-all;
         color:white;
     }
 
