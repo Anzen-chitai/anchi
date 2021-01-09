@@ -17,7 +17,7 @@ body{
     margin-top: 30px;
     margin-left: 3vw;
     max-width: 40%;
-    min-width: 15%;
+    min-width: 5%;
     position: fixed;
     z-index: 0;
 }
@@ -119,15 +119,16 @@ body{
 }
 .glitch {/*基本設定*/
     color: white;
-    font-family: Survival Horror,sans-serif;
-    font-weight: 800;
-    font-size: 110px;
+    font-family: avory-i-latin,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 130px;
     letter-spacing: -3px;
     position: relative;
     width: 870px;
     top: 350px;
     margin-bottom: 800px;
-    margin-left: 400px;
+    margin-left: 350px;
     z-index: 30;
   }
 
@@ -428,6 +429,7 @@ footer p{
     padding-left: 6vw;
     padding-top: 1vw;
   }
+
   .menu__line{
     background: #fff;
     display: block;
@@ -447,7 +449,7 @@ footer p{
 
   .glitch {font-size: 11vw;
   margin: 0 auto;
-  margin-left: 9vw;
+  margin-left: 15vw;
   margin-top: -5vw;
   position: absolute;
   top: 50%;
