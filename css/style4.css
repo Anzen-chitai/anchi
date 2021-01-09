@@ -102,14 +102,17 @@ body{
 
 .ending{
     margin-top: 5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.1vw;
     font-family: a-otf-ryumin-pr6n,serif;
     font-weight: 300;
     font-style: normal;
+    line-height: 6vh;
 }
 .ending br{
-    margin: 2vw;
+    margin: 2vh;
 }
 
 .spell{
@@ -134,3 +137,33 @@ footer p{
     padding-top: 20px;
     width: 50px;
 }
+body{word-break: break-all;
+    overflow-x: hidden;}
+
+ @media screen and (max-width: 480px){
+        .logo{
+          width: 150%;
+          display: inline;
+          padding-left: 6vw;
+          padding-top: 1vw;
+        }
+      
+        .menu__line{
+          background: #fff;
+          display: block;
+          height: 2px;
+          position: absolute;
+          transition:transform .3s;
+          width: 100%
+        }
+        .gnav__menu__item a{
+          color: white;
+          padding-top: -100px;
+          font-size: 8vw;
+          font-weight: bold;
+          text-decoration: none;
+          transition: .5s;
+      }
+      .menu {margin: 85vw;
+        margin-top: 0.5vw;}}
+      
