@@ -15,8 +15,9 @@ body{
 }
 .thema img{
     margin-top: 30px;
-    margin-left: 30px;
-    width: 200px;
+    margin-left: 3vw;
+    max-width: 40%;
+    min-width: 15%;
     position: fixed;
     z-index: 0;
 }
@@ -33,7 +34,7 @@ body{
     right: 25px;
     top: 30px;
     width: 30px;
-    z-index: 99;
+    z-index: 999;
     position: fixed;
 }
 .menu__line{
@@ -314,6 +315,9 @@ body{
   margin: 50px;
   margin-left: 120px;
 }
+.aboutcontent br{
+  display: none;
+}
 .item1{
   flex-basis: 450px;
 }
@@ -349,6 +353,9 @@ body{
   margin: 50px;
   margin-left: -65px;
   margin-right: 180px;
+}
+.storycontent br{
+  display: none;
 }
 .item1{
   flex-basis: 700px;
@@ -415,9 +422,33 @@ footer p{
 
 
 @media screen and (max-width: 480px){
+  .logo{
+    width: 150%;
+    display: inline;
+    padding-left: 6vw;
+    padding-top: 1vw;
+  }
+  .menu__line{
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%
+  }
+  .gnav__menu__item a{
+    color: white;
+    padding-top: -100px;
+    font-size: 8vw;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+}
 
-  .glitch {font-size: 13.5vw;
+  .glitch {font-size: 11vw;
   margin: 0 auto;
+  margin-left: 9vw;
+  margin-top: -5vw;
   position: absolute;
   top: 50%;
   left: 5%;
@@ -439,11 +470,14 @@ footer p{
   .positioncontent {flex-direction: column;}
   .about h1{
     padding-top: 100px;
+    margin: 0 auto;
     margin-left: 20px;
     color: white;
+    margin-top: -10vw;
     text-align: center;
+    margin-bottom: 5vw;
     font-size: 6.6vw;
-    letter-spacing: 0.4vw;
+    letter-spacing: 2vw;
     font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -453,61 +487,80 @@ footer p{
     font-size: 3.2vw;
     font-family: Meiryo,sans-serif;
     font-weight: 400;
-    letter-spacing: 0.1vw;
-    line-height: 40px;
+    letter-spacing: 0.05vw;
+    line-height: 30px;
     font-style: normal;
     margin: 10vw;
     margin-left: 10vw;
+    text-align: center;
+    margin-bottom: -200vw;
   }
-  .story h1{padding-top: 100px;
+  .aboutcontent br{
+    display: inline;
+  }
+
+  .story h1{
+    padding-top: 0;
+    margin: 0 ;
     margin-left: 20px;
     color: white;
+    margin-top: -400vw;
     text-align: center;
+    margin-bottom: 5vw;
     font-size: 6.6vw;
-    letter-spacing: 0.4vw;
+    letter-spacing: 2vw;
     font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
     font-weight: 600;
     font-style: normal;
-  margin-top: -300px;}
+    margin-top: -350px;}
   .storycontent p{
     color: #fff;
     font-size: 3.2vw;
     font-family: Meiryo,sans-serif;
     font-weight: 400;
-    letter-spacing: 0.1vw;
-    line-height: 40px;
+    letter-spacing: 0.05vw;
+    line-height: 30px;
     font-style: normal;
     margin: 10vw;
     margin-left: 10vw;
+    text-align: center;
+  }
+  .storycontent br{
+    display: inline;
   }
   .position h1{
-    padding-top: 100px;
+    padding-top: 80px;
+    margin: 0 ;
     margin-left: 20px;
     color: white;
+    margin-top: -300vw;
     text-align: center;
+    margin-bottom: 5vw;
     font-size: 6.6vw;
-    letter-spacing: 0.3vw;
+    letter-spacing: 2vw;
     font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-top: -300px;
+    margin-top: -350px;;
   }
   .positioncontent p{
     color: #fff;
     font-size: 3.2vw;
     font-family: Meiryo,sans-serif;
     font-weight: 400;
-    letter-spacing: 0.1vw;
-    line-height: 40px;
+    letter-spacing: 0.05vw;
+    line-height: 30px;
     font-style: normal;
     margin: 10vw;
     margin-left: 10vw;
+    text-align: center;
+    padding: 0;
   }
-  .menu {margin: 90vw;
+  .menu {margin: 85vw;
   margin-top: 0.5vw;}
   .logo img{
     width: 20vw;
   }
- footer {margin-top: -250px;}
+ footer {margin-top: -500px;}
   body {overflow-x: hidden;}
 }
