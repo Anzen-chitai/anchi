@@ -640,5 +640,17 @@ footer p{
     -webkit-appearance: none;
     -webkit-text-size-adjust: 130%;
 	  }
+  .story1{
+    margin: 5vw;
+    margin-top: 15vw;
+    font-size: 5vw;
+    font-family: fot-tsukubrdgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 3vw;
+}
+.story1 br{
+    margin: 1vw;
+}
   }
 }
